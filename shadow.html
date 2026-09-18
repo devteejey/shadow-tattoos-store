@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SHADOW — Tattoo Studio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="shadow.css">
+</head>
+
+
+
+<body>
+
+    <section class="shadow-hero" id="home">
+
+        <div class="shadow-hero-bg"></div>
+        <div class="shadow-hero-overlay"></div>
+
+        <header class="shadow-nav">
+
+        <a href="#" class="shadow-logo">
+            SHADOW<span>.</span>
+        </a>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#work">Work</a>
+            <a href="#about">About</a>
+            <a href="#booking">Book</a>
+        </nav>
+
+        <a href="#booking" class="shadow-nav-btn">
+            BOOK NOW
+        </a>
+
+        </header>
+
+        <div class="shadow-hero-content">
+
+            <p class="shadow-tag">
+                PREMIUM TATTOO STUDIO — EST. 2026
+            </p>
+
+            <h1>
+                WEAR YOUR
+                <span>SHADOW</span>
+            </h1>
+
+            <p class="shadow-description">
+                Custom tattoos. Dark art. Permanent stories.
+                We turn your ideas into artwork that stays with you.
+            </p>
+
+            <div class="shadow-hero-buttons">
+
+                <a href="#booking" class="shadow-btn shadow-btn-red">
+                    BOOK A SESSION
+                </a>
+
+                <a href="#work" class="shadow-btn shadow-btn-outline">
+                    EXPLORE OUR WORK
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="shadow-scroll">
+            <span></span>
+                SCROLL TO EXPLORE
+        </div>
+
+        <div class="shadow-hero-number">
+            01 / 06
+        </div>
+
+    </section>
+
+
+        <!-- INTRO -->
+        <section class="intro">
+            <div>
+                <p class="section-label">01 — THE STUDIO</p>
+            </div>
+            <div class="intro-text">
+                <h2>
+                    YOUR SKIN.<br>
+                    <span>OUR CANVAS.</span>
+                </h2>
+                <p>
+                    SHADOW is a modern tattoo studio built for people
+                    who want more than just ink. Every tattoo is designed
+                    around your story, your style and your identity.
+                </p>
+                <a href="#about" class="text-link">
+                    DISCOVER SHADOW →
+                </a>
+            </div>
+        </section>
+        
+
+<section class="shadow-gallery" id="work">
+    <div class="gallery-heading">
+        <div>
+            <p class="gallery-label">02 — PORTFOLIO</p>
+            <h2>
+                OUR <span>WORK</span>
+            </h2>
+        </div>
+        <p class="gallery-intro">
+            A collection of custom tattoos created by
+            the SHADOW artists. Every piece tells a story.
+        </p>
+    </div>
+
+
+    <!-- FILTER BUTTONS -->
+
+    <div class="gallery-filters">
+        <button class="filter-btn active" data-filter="all">
+            ALL
+        </button>
+        <button class="filter-btn" data-filter="blackwork">
+            BLACKWORK
+        </button>
+        <button class="filter-btn" data-filter="realism">
+            REALISM
+        </button>
+        <button class="filter-btn" data-filter="fine-line">
+            FINE LINE
+        </button>
+        <button class="filter-btn" data-filter="traditional">
+            TRADITIONAL
+        </button>
+    </div>
+
+
+    <!-- GALLERY -->
+
+    <div class="shadow-gallery-grid">
+
+        <!-- ITEM 1 -->
+
+        <div
+            class="tattoo-card large"
+            data-category="blackwork">
+            <img
+                src="./image/15 Unique Viking Tattoo Ideas.jpg"
+                alt="Blackwork tattoo">
+            <div class="tattoo-overlay">
+                <div class="tattoo-info">
+                    <span>BLACKWORK</span>
+                    <h3>
+                        DARK GEOMETRY
+                    </h3>
+                </div>
+                <button class="view-btn">
+                    +
+                </button>
+            </div>
+        </div>
+
+
+        <!-- ITEM 2 -->
+
+        <div
+            class="tattoo-card"
+            data-category="realism">
+            <img
+                src="https://images.unsplash.com/photo-1611501275019-9b5cda994e8d?auto=format&fit=crop&w=900&q=85"
+                alt="Realism tattoo">
+            <div class="tattoo-overlay">
+                <div class="tattoo-info">
+                    <span>REALISM</span>
+                    <h3>
+                        BLACK PORTRAIT
+                    </h3>
+                </div>
+                <button class="view-btn">
+                    +
+                </button>
+            </div>
+        </div>
+
+
+        <!-- ITEM 3 -->
+
+        <div
+            class="tattoo-card"
+            data-category="fine-line">
+            <img
+                src="./image/1067705024129037100.jpg"
+                alt="Fine line tattoo">
+            <div class="tattoo-overlay">
+                <div class="tattoo-info">
+                    <span>FINE LINE</span>
+                    <h3>
+                        SACRED LINES
+                    </h3>
+                </div>
+                <button class="view-btn">
+                    +
+                </button>
+            </div>
+        </div>
+
+
+        <!-- ITEM 4 -->
+
+        <div
+            class="tattoo-card"
+            data-category="traditional">
+            <img
+                src="https://images.unsplash.com/photo-1542727365-19732a80dcfd?auto=format&fit=crop&w=900&q=85"
+                alt="Traditional tattoo">
+            <div class="tattoo-overlay">
+                <div class="tattoo-info">
+                    <span>TRADITIONAL</span>
+                    <h3>
+                        DARK ROSE
+                    </h3>
+                </div>
+                <button class="view-btn">
+                    +
+                </button>
+            </div>
+        </div>
+
+
+        <!-- ITEM 5 -->
+
+        <div
+            class="tattoo-card tall"
+            data-category="blackwork">
+            <img
+                src="./image/389279961560191532.jpg"
+                alt="Blackwork tattoo">
+            <div class="tattoo-overlay">
+                <div class="tattoo-info">
+                    <span>BLACKWORK</span>
+                    <h3>
+                        SHADOW BEAST
+                    </h3>
+                </div>
+                <button class="view-btn">
+                    +
+                </button>
+            </div>
+        </div>
+
+
+        <!-- ITEM 6 -->
+
+        <div
+            class="tattoo-card"
+            data-category="realism">
+            <img
+                src="./image/499055202476187850.jpg">
+            <div class="tattoo-overlay">
+                <div class="tattoo-info">
+                    <span>REALISM</span>
+                    <h3>
+                        WILD SOUL
+                    </h3>
+                </div>
+                <button class="view-btn">
+                    +
+                </button>
+            </div>
+        </div>
+
+
+        <!-- ITEM 7 -->
+
+        <div
+            class="tattoo-card"
+            data-category="fine-line">
+            <img
+                src="./image/712765078564709302.jpg"
+                alt="Fine line tattoo">
+            <div class="tattoo-overlay">
+                <div class="tattoo-info">
+                    <span>FINE LINE</span>
+                    <h3>
+                        MOON PHASE
+                    </h3>
+                </div>
+                <button class="view-btn">
+                    +
+                </button>
+            </div>
+        </div>
+
+
+        <!-- ITEM 8 -->
+
+        <div
+            class="tattoo-card large"
+            data-category="traditional">
+            <img
+                src="https://images.unsplash.com/photo-1597852074816-d933c7d2b988?auto=format&fit=crop&w=1200&q=85"alt="Traditional tattoo">
+            <div class="tattoo-overlay">
+                <div class="tattoo-info">
+                    <span>TRADITIONAL</span>
+                    <h3>
+                        ANCIENT INK
+                    </h3>
+                </div>
+                <button class="view-btn">
+                    +
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- LIGHTBOX -->
+
+        <div class="tattoo-lightbox" id="tattooLightbox">
+            <button class="lightbox-close">
+                ×
+            </button>
+            <button class="lightbox-prev">
+                ‹
+            </button>
+            <div class="lightbox-content">
+                <img
+                    id="lightboxImage"
+                    src=""alt="Tattoo preview">
+                <div class="lightbox-caption">
+                    <span id="lightboxCategory">
+                        BLACKWORK
+                    </span>
+                    <h3 id="lightboxTitle">
+                        DARK GEOMETRY
+                    </h3>
+                </div>
+            </div>
+            <button class="lightbox-next">
+                ›
+            </button>
+        </div>
+
+        <!-- ABOUT -->
+        <!-- <section class="about" id="about">
+            <div class="about-image">
+                <img
+                    src="./image/935904366335072655 (1).jpg"alt="Tattoo artist">
+            </div>
+
+            <div class="about-content">
+                <p class="section-label">03 — ABOUT SHADOW</p>
+                <h2>
+                    BUILT IN<br>
+                    <span>DARKNESS.</span>
+                </h2>
+                <p>
+                    SHADOW was created for artists and clients who
+                    believe tattoos should feel personal.
+                </p>
+                <p>
+                    From minimalist fine-line tattoos to large
+                    blackwork pieces, our artists focus on detail,
+                    composition and individuality.
+                </p>
+                <div class="stats">
+                    <div>
+                        <strong>500+</strong>
+                        <span>TATTOOS</span>
+                    </div>
+                    <div>
+                        <strong>5</strong>
+                        <span>ARTISTS</span>
+                    </div>
+                    <div>
+                        <strong>8+</strong>
+                        <span>YEARS</span>
+                    </div>
+                </div>
+            </div>
+            
+        </section> -->
+
+    <section class="shadow-about" id="about">
+
+    <!-- Background decoration -->
+            <div class="about-bg-text">
+                SHADOW
+            </div>
+
+
+            <div class="about-container">
+
+                <!-- IMAGE SIDE -->
+
+                <div class="about-visual">
+                    <div class="about-image-frame">
+                        <img
+                            src="./image/935904366335072655 (1).jpg" alt="SHADOW tattoo artist working">
+                        <div class="image-number">
+                            01 / SHADOW
+                        </div>
+                    </div>
+                    <div class="image-line"></div>
+                </div>
+
+
+                <!-- CONTENT SIDE -->
+
+                <div class="about-content">
+                    <p class="about-label">
+                        04 — ABOUT SHADOW
+                    </p>
+                    <h2>
+                        MORE THAN<br>
+                        <span>INK.</span>
+                    </h2>
+                    <p class="about-lead">
+                        SHADOW is a tattoo studio built around
+                        individuality, creativity and permanent
+                        self-expression.
+                    </p>
+                    <p class="about-text">
+                        We believe a tattoo should mean something.
+                        Whether it's a small piece with a hidden
+                        meaning or a full-scale custom artwork,
+                        every design deserves the same attention
+                        to detail.
+                    </p>
+                    <p class="about-text">
+                        Our artists combine traditional techniques
+                        with modern tattoo culture to create
+                        pieces that feel personal, timeless and
+                        completely yours.
+                    </p>
+
+
+                    <div class="about-stats">
+                        <div class="about-stat">
+                            <strong
+                                data-target="500" class="counter">
+                                0
+                            </strong>
+                            <span>
+                                TATTOOS CREATED
+                            </span>
+                        </div>
+
+
+                        <div class="about-stat">
+                            <strong
+                                data-target="5" class="counter">
+                                0
+                            </strong>
+                            <span>
+                                RESIDENT ARTISTS
+                            </span>
+                        </div>
+
+
+                        <div class="about-stat">
+                            <strong
+                                data-target="8" class="counter">
+                                0
+                            </strong>
+                            <span>
+                                YEARS EXPERIENCE
+                            </span>
+                        </div>
+                    </div>
+
+                    <a
+                        href="#booking" class="about-button">
+                        START YOUR STORY
+                        <span>↗</span>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="shadow-values">
+                <div class="values-heading">
+                    <p>
+                        WHAT WE BELIEVE
+                    </p>
+                    <h3>
+                        THE SHADOW<br>
+                        <span>STANDARD.</span>
+                    </h3>
+                </div>
+
+
+                <div class="values-grid">
+                    <div class="value-item">
+                        <span>01</span>
+                        <h4>PRECISION</h4>
+                        <p>
+                            Every line, shadow and detail
+                            is placed with intention.
+                        </p>
+                    </div>
+
+
+                    <div class="value-item">
+                        <span>02</span>
+                        <h4>ORIGINALITY</h4>
+                        <p>
+                            Your tattoo should be yours.
+                            We create original artwork,
+                            not copies.
+                        </p>
+                    </div>
+
+
+                    <div class="value-item">
+                        <span>03</span>
+                        <h4>CRAFT</h4>
+                        <p>
+                            We treat tattooing as an art form
+                            and constantly push our skills
+                            further.
+                        </p>
+                    </div>
+
+
+                    <div class="value-item">
+                        <span>04</span>
+                        <h4>EXPERIENCE</h4>
+                        <p>
+                            From consultation to final ink,
+                            every part of the experience
+                            matters.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+
+
+        <!-- SERVICES -->
+        <section class="services" id="services">
+            <div class="section-heading">
+                <div>
+                    <p class="section-label">04 — SERVICES</p>
+                    <h2>
+                        WHAT WE <span>DO</span>
+                    </h2>
+                </div>
+            </div>
+
+            <div class="service-grid">
+                <div class="service">
+                    <span class="number">01</span>
+                    <h3>BLACKWORK</h3>
+                    <p>
+                        Bold black ink, geometric designs
+                        and powerful compositions.
+                    </p>
+                    <span class="arrow">↗</span>
+                </div>
+
+                <div class="service">
+                    <span class="number">02</span>
+                    <h3>REALISM</h3>
+                    <p>
+                        Highly detailed portraits,
+                        animals and realistic artwork.
+                    </p>
+                    <span class="arrow">↗</span>
+                </div>
+
+
+                <div class="service">
+                    <span class="number">03</span>
+                    <h3>FINE LINE</h3>
+                    <p>
+                        Minimal, elegant and precise
+                        tattoos using delicate lines.
+                    </p>
+                    <span class="arrow">↗</span>
+                </div>
+
+
+                <div class="service">
+                    <span class="number">04</span>
+                    <h3>CUSTOM DESIGN</h3>
+                    <p>
+                        A completely original tattoo
+                        designed around your story.
+                    </p>
+                    <span class="arrow">↗</span>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="shadow-services" id="services">
+
+        <div class="services-header">
+            <div>
+                <p class="services-label">03 — SERVICES & PRICING</p>
+                <h2>
+                    CHOOSE YOUR<br>
+                    <span>INK.</span>
+                </h2>
+            </div>
+            <p class="services-intro">
+                Every tattoo is unique. Prices depend on size,
+                placement, complexity and the artist required
+                for your design.
+            </p>
+        </div>
+
+
+    <!-- PRICING CARDS -->
+
+    <div class="pricing-grid">
+
+        <!-- BLACKWORK -->
+
+        <article class="price-card">
+
+            <div class="price-top">
+                <span class="price-number">01</span>
+                <span class="price-icon">✦</span>
+            </div>
+
+            <h3>BLACKWORK</h3>
+            <p class="price-description">
+                Bold black ink, geometric patterns,
+                heavy shading and dark compositions.
+            </p>
+
+            <div class="price">
+                <small>FROM</small>
+                <strong>₦50,000</strong>
+            </div>
+
+            <ul>
+                <li>Custom design</li>
+                <li>Black ink</li>
+                <li>Shading included</li>
+                <li>Consultation</li>
+            </ul>
+
+            <a href="#booking" class="price-button">
+                BOOK BLACKWORK
+                <span>↗</span>
+            </a>
+
+        </article>
+
+
+        <!-- REALISM -->
+
+        <article class="price-card featured">
+
+            <div class="featured-tag">
+                MOST REQUESTED
+            </div>
+
+            <div class="price-top">
+                <span class="price-number">02</span>
+                <span class="price-icon">◉</span>
+            </div>
+
+            <h3>REALISM</h3>
+            <p class="price-description">
+                Highly detailed portraits, animals,
+                faces and realistic black & grey work.
+            </p>
+
+            <div class="price">
+                <small>FROM</small>
+                <strong>₦80,000</strong>
+            </div>
+
+            <ul>
+                <li>Detailed custom design</li>
+                <li>Black & grey ink</li>
+                <li>Portrait work</li>
+                <li>Consultation</li>
+            </ul>
+
+            <a href="#booking" class="price-button">
+                BOOK REALISM
+                <span>↗</span>
+            </a>
+
+        </article>
+
+
+        <!-- FINE LINE -->
+
+        <article class="price-card">
+
+            <div class="price-top">
+                <span class="price-number">03</span>
+                <span class="price-icon">⌁</span>
+            </div>
+
+            <h3>FINE LINE</h3>
+            <p class="price-description">
+                Minimal, elegant and precise tattoos
+                using delicate lines and subtle details.
+            </p>
+
+            <div class="price">
+                <small>FROM</small>
+                <strong>₦35,000</strong>
+            </div>
+
+            <ul>
+                <li>Minimal designs</li>
+                <li>Fine needle work</li>
+                <li>Small tattoos</li>
+                <li>Consultation</li>
+            </ul>
+
+            <a href="#booking" class="price-button">
+                BOOK FINE LINE
+                <span>↗</span>
+            </a>
+
+        </article>
+
+
+        <!-- TRADITIONAL -->
+
+        <article class="price-card">
+
+            <div class="price-top">
+                <span class="price-number">04</span>
+                <span class="price-icon">✧</span>
+            </div>
+
+            <h3>TRADITIONAL</h3>
+            <p class="price-description">
+                Classic tattoo artwork inspired by
+                traditional symbols and bold outlines.
+            </p>
+
+            <div class="price">
+                <small>FROM</small>
+                <strong>₦45,000</strong>
+            </div>
+
+            <ul>
+                <li>Bold outlines</li>
+                <li>Classic designs</li>
+                <li>Custom artwork</li>
+                <li>Consultation</li>
+            </ul>
+
+            <a href="#booking" class="price-button">
+                BOOK TRADITIONAL
+                <span>↗</span>
+            </a>
+
+        </article>
+
+
+        <!-- CUSTOM -->
+
+        <article class="price-card custom-card">
+
+            <div class="price-top">
+                <span class="price-number">05</span>
+                <span class="price-icon">✹</span>
+            </div>
+
+            <h3>CUSTOM PIECE</h3>
+            <p class="price-description">
+                Have something completely original in mind?
+                Let's build the artwork together.
+            </p>
+
+            <div class="price">
+                <small>FROM</small>
+                <strong>₦100,000</strong>
+            </div>
+
+            <ul>
+                <li>Original concept</li>
+                <li>Custom artwork</li>
+                <li>Artist consultation</li>
+                <li>Multiple revisions</li>
+            </ul>
+
+            <a href="#booking" class="price-button">
+                START CUSTOM DESIGN
+                <span>↗</span>
+            </a>
+
+        </article>
+
+    </div>
+
+
+    <!-- HOURLY RATE -->
+
+    <div class="hourly-rate">
+
+        <div>
+            <span>FULL DAY SESSION</span>9888899-0
+            <h3>
+                ₦250,000
+            </h3>
+        </div>
+
+        <div class="hourly-line"></div>
+
+        <div>
+            <span>HOURLY RATE</span>
+            <h3>
+                ₦60,000 / HR
+            </h3>
+        </div>
+
+        <a href="#booking" class="hourly-button">
+            DISCUSS YOUR PROJECT →
+        </a>
+
+    </div>
+
+
+    <!-- PRICING NOTE -->
+
+    <div class="pricing-note">
+        <span>PLEASE NOTE</span>
+        <p>
+            Final pricing is confirmed after consultation.
+            Large-scale projects, cover-ups and highly detailed
+            designs may require a custom quote.
+        </p>
+    </div>
+
+</section>
+
+
+        <!-- CTA -->
+        <section class="cta">
+
+            <div class="cta-content">
+                <p class="section-label">05 — READY?</p>
+                <h2>
+                    MAKE YOUR<br>
+                    <span>MARK.</span>
+                </h2>
+                <a href="#booking" class="btn btn-primary">
+                    START YOUR TATTOO
+                </a>
+            </div>
+
+        </section>
+
+
+        <!-- BOOKING -->
+        <section class="booking" id="booking">
+
+            <div class="booking-info">
+                <p class="section-label">06 — BOOKING</p>
+                <h2>
+                    BOOK A<br>
+                    <span>SESSION.</span>
+                </h2>
+                <p>
+                    Tell us about your tattoo idea and we'll
+                    get back to you as soon as possible.
+                </p>
+                <div class="contact-details">
+                    <div>
+                        <span>EMAIL</span>
+                        <p>hello@shadowtattoos.com</p>
+                    </div>
+                    <div>
+                        <span>PHONE</span>
+                        <p>+234 800 000 0000</p>
+                    </div>
+                    <div>
+                        <span>STUDIO</span>
+                        <p>Lagos, Nigeria</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <form class="booking-form" id="bookingForm">
+                <div class="form-group">
+                    <label for="name">YOUR NAME</label>
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="John Doe"
+                        required>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="email">EMAIL</label>
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="john@example.com"
+                        required>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="style">TATTOO STYLE</label>
+                    <select id="style" required>
+                        <option value="">
+                            Select a style
+                        </option>
+
+                        <option>Blackwork</option>
+                        <option>Realism</option>
+                        <option>Fine Line</option>
+                        <option>Tribal</option>
+                        <option>Custom Design</option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="message">
+                        TELL US ABOUT YOUR IDEA
+                    </label>
+
+                    <textarea
+                        id="message"
+                        rows="5"
+                        placeholder="Describe your tattoo idea..."
+                        required
+                    ></textarea>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="btn btn-primary submit-btn">
+                    SEND BOOKING REQUEST
+                </button>
+                <p id="formMessage" class="form-message"></p>
+            </form>
+
+        </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="footer-top">
+            <div class="footer-logo">
+                SHADOW<span>.</span>
+            </div>
+            <p>
+                CUSTOM INK.<br>
+                PERMANENT STORIES.
+            </p>
+            <div class="socials">
+                <a href="#">IG</a>
+                <a href="#">FB</a>
+                <a href="#">TK</a>
+            </div>
+        </div>
+
+
+        <div class="footer-bottom">
+            <p>
+                © 2026 SHADOW TATTOO STUDIO.
+                ALL RIGHTS RESERVED.
+            </p>
+            <a href="#home">BACK TO TOP ↑</a>
+        </div>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="shadow.js"></script>
+
+</body>
+</html>
