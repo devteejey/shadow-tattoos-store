@@ -1101,7 +1101,7 @@ body {
     margin: 0;
     font-family: Impact, "Arial Black", sans-serif;
     font-size: clamp(75px, 9vw, 135px);
-    line-height: .78;
+    line-height: .88;
     letter-spacing: 2px;
 }
 
@@ -1928,8 +1928,20 @@ body {
 
 .submit-btn {
     width: 100%;
-    border: none;
     padding: 30px;
+    border: 1px solid #444;
+    color: #fff;
+    background-color: #080808;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    white-space: nowrap;
+    transition: .3s ease;
+}
+
+.submit-btn:hover {
+    background: #a90000;
+    border-color: #a90000;
 }
 
 .form-message {
